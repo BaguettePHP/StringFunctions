@@ -9,15 +9,15 @@ php:
   - hhvm
 
 before_script:
-  - composer install --prefer-dist --dev
+  - composer install --prefer-dist
   - phpenv rehash
 
 script:
   - mkdir -p build/logs
   - phpunit --coverage-clover build/logs/clover.xml
 
-after_script:
-  - php vendor/bin/coveralls
+after_success:
+  - travis_retry php vendor/bin/coveralls
 
 notifications:
   email: false
