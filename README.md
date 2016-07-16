@@ -2,6 +2,7 @@ PHP String functions
 ====================
 
 [![Package version](http://img.shields.io/packagist/v/baguette/string-functions.svg?style=flat)](https://packagist.org/packages/baguette/string-functions)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/BaguettePHP/StringFunctions/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/BaguettePHP/StringFunctions/?branch=master)
 [![Build Status](https://travis-ci.org/BaguettePHP/StringFunctions.svg?branch=master)](https://travis-ci.org/BaguettePHP/StringFunctions)
 [![Packagist](http://img.shields.io/packagist/dt/baguette/string-functions.svg?style=flat)](https://packagist.org/packages/baguette/string-functions)
 [![Coverage Status](https://coveralls.io/repos/BaguettePHP/StringFunctions/badge.svg)](https://coveralls.io/r/BaguettePHP/StringFunctions)
