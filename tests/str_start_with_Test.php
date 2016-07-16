@@ -34,6 +34,7 @@ final class str_start_with_test extends \PHPUnit_Framework_TestCase
     public function for_beFalse()
     {
         return array(
+            array(null),
             array('23'),
             array('23'),
             array('abc'),

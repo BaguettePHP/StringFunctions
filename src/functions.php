@@ -17,7 +17,7 @@ if (!function_exists('str_start_with')) {
      */
     function str_start_with($haystack, $needle)
     {
-        return strncmp($haystack, $needle, strlen($needle)) === 0;
+        return isset($needle) && strncmp($haystack, $needle, strlen($needle)) === 0;
     }
 }
 
